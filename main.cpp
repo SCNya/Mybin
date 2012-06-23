@@ -14,7 +14,7 @@ int main()
     {
         cout << " " << mass[i];
     }
-    cout << "Vvedite chislo" << endl;
+    cout << "\nVvedite chislo" << endl;
     cin >> n;
     n = finds(mass, n, 0, s);
     if (n == (-1))
