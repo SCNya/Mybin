@@ -1,4 +1,4 @@
-//ver. 1.0 23.06.12 14:55 by AEffect
+//ver. 1.0 23.06.12 14:55 by Alexeenko Vsevolod
 #include <iostream>
 #include <cmath>
 #define s 10
@@ -14,7 +14,7 @@ int main()
     {
         cout << " " << mass[i];
     }
-    cout << "\nVvedite chislo" << endl;
+    cout << "\nEnter a number" << endl;
     cin >> n;
     n = finds(mass, n, 0, s);
     if (n == (-1))
